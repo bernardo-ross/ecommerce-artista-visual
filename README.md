@@ -1,3 +1,9 @@
+
+<p align="center">
+  <img src="galgo-rosa.gif" width="220" alt="Galgo rosa">
+</p>
+
+
 # E-commerce | Artista Visual
 
 Projeto de desenvolvimento e personalização de uma loja virtual voltada à comercialização de obras de arte.
