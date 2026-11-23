@@ -52,6 +52,18 @@ A loja foi publicada na internet utilizando a plataforma Yampi, permitindo que v
 
 Aplicar conhecimentos de desenvolvimento web na personalização de uma plataforma de e-commerce existente, explorando integração de tecnologias, experiência do usuário e implementação de funcionalidades próprias.
 
+## 📸 Capturas de tela
+
+### Versão desktop
+![Página inicial no desktop](screenshots/home-desktop.png)
+
+![Página de prints com player de música](screenshots/prints-desktop-player.png)
+
+### Versão mobile
+![Página inicial no celular](screenshots/home-mobile.png)
+
+![Página de produto no celular](screenshots/produto-mobile.png)
+
 ---
 
 **Projeto desenvolvido com HTML, CSS, JavaScript, Yampi e GitHub.**
