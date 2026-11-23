@@ -1,0 +1,307 @@
+/* =========================================================
+   PERSONALIZAÇÃO VISUAL — LOJA VIRTUAL
+   Plataforma: Yampi
+   Tecnologias: CSS3
+   ========================================================= */
+
+
+/* ---------------------------------------------------------
+   1. PRINTS — MODO CARROSSEL
+   --------------------------------------------------------- */
+
+/* Aumenta a área de exibição das imagens */
+.collection.collection-2 .products-list.-carousel .holder-image .image-ratio {
+  height: 300px !important;
+  padding-bottom: 0 !important;
+  aspect-ratio: auto !important;
+}
+
+/* Mantém as imagens inteiras e proporcionais */
+.collection.collection-2 .products-list.-carousel .holder-image .image-ratio img {
+  width: 100% !important;
+  height: 100% !important;
+  max-height: none !important;
+  object-fit: contain !important;
+}
+
+/* Ajuste para celular */
+@media (max-width: 700px) {
+  .collection.collection-2 .products-list.-carousel .holder-image .image-ratio {
+    height: 220px !important;
+  }
+}
+
+
+/* ---------------------------------------------------------
+   2. COLEÇÃO DE OBRAS ORIGINAIS
+   --------------------------------------------------------- */
+
+/* Mesmo alinhamento e largura da seção Prints */
+body.home .rocket-emitter:has(.collection.collection-3) > .emitter-title {
+  width: 1200px !important;
+  max-width: calc(100% - 40px) !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* Container dos produtos */
+.collection.collection-3 .container.holder-collection {
+  width: 1200px !important;
+  max-width: calc(100% - 40px) !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* Imagens */
+.collection.collection-3 .holder-image .image-ratio img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: contain !important;
+}
+
+/* Celular */
+@media (max-width: 700px) {
+  body.home .rocket-emitter:has(.collection.collection-3) > .emitter-title,
+  .collection.collection-3 .container.holder-collection {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+}
+
+
+/* ---------------------------------------------------------
+   3. PÁGINAS INSTITUCIONAIS
+   --------------------------------------------------------- */
+
+.section-pages .content > .theme-title {
+  padding-left: 22px !important;
+  box-sizing: border-box;
+}
+
+
+/* ---------------------------------------------------------
+   4. RODAPÉ — INFORMAÇÕES E LINKS
+   --------------------------------------------------------- */
+
+/* Remove o título Informações do rodapé */
+.holder-footer-info .-pages > .-title,
+.holder-footer-info .-pages .expandable-title {
+  display: none !important;
+}
+
+/* Mantém o link Sobre visível */
+.holder-footer-info .-pages .expandable-holder {
+  height: auto !important;
+}
+
+.holder-footer-info .-pages .expandable-holder ul {
+  display: block !important;
+}
+
+
+/* ---------------------------------------------------------
+   5. LOGO GIF ANIMADO
+   --------------------------------------------------------- */
+
+/* Oculta o texto da logo padrão */
+#section-header .logo.logo--empty .empty-logo {
+  font-size: 0 !important;
+}
+
+/* Aplica o GIF como imagem da logo */
+#section-header .logo.logo--empty .empty-logo a {
+  display: block !important;
+  width: 180px !important;
+  height: 80px !important;
+  font-size: 0 !important;
+  background-image: url("https://i.postimg.cc/2jgKrFQC/download.gif") !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: contain !important;
+}
+
+/* Ajuste inicial para celular */
+@media (max-width: 768px) {
+  #section-header .logo.logo--empty .empty-logo a {
+    width: 130px !important;
+    height: 60px !important;
+  }
+}
+
+
+/* Centraliza o GIF acima do menu */
+#section-header .logo.logo--empty {
+  position: relative !important;
+  left: -20px !important;
+}
+
+
+/* Ajustes de tamanho da logo GIF */
+#section-header .logo.logo--empty .empty-logo a {
+  width: 220px !important;
+  height: 120px !important;
+  background-size: 180px auto !important;
+}
+
+/* Ajuste posterior do tamanho da logo */
+#section-header .logo.logo--empty .empty-logo a {
+  width: 200px !important;
+  height: 110px !important;
+  background-size: 155px auto !important;
+}
+
+#section-header .logo.logo--empty .empty-logo::after {
+  width: 100px !important;
+  height: 100px !important;
+  transform: scale(1.2) !important;
+  background-size: 155px auto !important;
+}
+
+
+/* Ajuste final da logo no celular */
+@media (max-width: 768px) {
+  #section-header .logo.logo--empty .empty-logo a {
+    width: 150px !important;
+    height: 90px !important;
+    background-size: 120px auto !important;
+  }
+
+  #section-header .logo.logo--empty .empty-logo::after {
+    width: 75px !important;
+    height: 75px !important;
+    transform: none !important;
+    background-size: 120px auto !important;
+  }
+}
+
+
+/* ---------------------------------------------------------
+   6. RODAPÉ MINIMALISTA E CENTRALIZADO
+   --------------------------------------------------------- */
+
+.footer .holder-footer-section.section-1 {
+  display: flex !important;
+  justify-content: center !important;
+  width: 100% !important;
+}
+
+.footer .holder-footer-info {
+  display: flex !important;
+  width: auto !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 40px !important;
+  margin: 0 auto !important;
+}
+
+/* Sobre */
+.footer .holder-footer-info .-pages,
+.footer .holder-footer-info .-social-midia {
+  width: auto !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+}
+
+.footer .holder-footer-info .-title,
+.footer .holder-footer-info .expandable-title {
+  display: none !important;
+}
+
+.footer .holder-footer-info .expandable-holder {
+  height: auto !important;
+  border: none !important;
+  background: transparent !important;
+  padding: 0 !important;
+}
+
+.footer .holder-footer-info .expandable-holder ul {
+  display: block !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.footer .holder-footer-info .expandable-holder li a {
+  padding: 0 !important;
+  border: none !important;
+  background: none !important;
+}
+
+/* Instagram */
+.footer .holder-footer-info .-social-midia ul {
+  display: flex !important;
+  align-items: center !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.footer .holder-footer-info .-social-midia ul > a {
+  display: none !important;
+}
+
+.footer .holder-footer-info .-social-midia li {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+
+/* ---------------------------------------------------------
+   7. REDUÇÃO DO ESPAÇO ANTES DO RODAPÉ
+   --------------------------------------------------------- */
+
+.footer.top-line .holder-footer {
+  padding-top: 20px !important;
+  margin-top: 0 !important;
+}
+
+.footer.top-line {
+  margin-top: 0 !important;
+}
+
+
+/* ---------------------------------------------------------
+   8. SOBRE E INSTAGRAM NA MESMA LINHA — MOBILE
+   --------------------------------------------------------- */
+
+@media (max-width: 768px) {
+  .footer .holder-footer-info {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    width: 100% !important;
+    gap: 0 !important;
+  }
+
+  .footer .holder-footer-info .-pages,
+  .footer .holder-footer-info .-social-midia {
+    width: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .footer .holder-footer-info .-social-midia ul {
+    display: flex !important;
+    justify-content: flex-end !important;
+    align-items: center !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .footer .holder-footer-info .-social-midia ul > a {
+    display: none !important;
+  }
+}
+
+
+/* ---------------------------------------------------------
+   9. OCULTAR ABA SOBRE NO MOBILE
+   --------------------------------------------------------- */
+
+@media (max-width: 768px) {
+  .page-institutional .tabs,
+  .page-institutional .nav-tabs,
+  .page-institutional select {
+    display: none !important;
+  }
+}
