@@ -10,6 +10,14 @@ Projeto de desenvolvimento e personalização de uma loja virtual voltada à com
 
 A solução utiliza a plataforma **Yampi** como estrutura de e-commerce, com implementação de códigos personalizados para aprimorar a identidade visual, a experiência de navegação e a interação com os visitantes.
 
+## 🌐 Loja em funcionamento
+
+O projeto pode ser visualizado em sua versão publicada:
+
+🛍️ **[Acessar a loja online](https://beatrizbilker.com.br)**
+
+Explore a navegação, a apresentação dos produtos, a versão responsiva e os recursos personalizados implementados.
+
 ## Sobre o projeto
 
 O projeto consiste na construção e personalização de uma loja virtual funcional, com foco na apresentação e comercialização de obras artísticas.
